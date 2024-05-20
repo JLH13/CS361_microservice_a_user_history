@@ -2,11 +2,9 @@
 
 ## Clear instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call:
 
-To add a conversion record:
-Endpoint:
-> /add_conversion
-Method:
-> POST
+To add a conversion record:  
+Endpoint:   /add_conversion
+Method:   POST
 Payload (JSON):
 ```
 {
