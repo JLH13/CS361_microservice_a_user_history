@@ -38,9 +38,12 @@ print(response.json())
 
 ## Clear instructions for how to programmatically RECEIVE data from the microservice you implemented:
 
-To retrieve conversion history:
-Endpoint: /get_history/<user_id>
-Method: GET
+To retrieve conversion history: <br>
+Endpoint: <br>
+/get_history/<user_id> <br>
+<br>
+Method: <br>
+GET <br>
 
 Example Call:
 ```
