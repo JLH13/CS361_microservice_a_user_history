@@ -6,6 +6,7 @@ To add a conversion record:
 Endpoint: /add_conversion
 Method: POST
 Payload (JSON):
+```
 {
   "user_id": "user123",
   "from_currency": "USD",
@@ -13,8 +14,9 @@ Payload (JSON):
   "amount": 100,
   "result": 84
 }
-
+```
 Example Call:
+```
 import requests
 url = 'http://127.0.0.1:5000/add_conversion'
 data = {
@@ -26,7 +28,7 @@ data = {
 }
 response = requests.post(url, json=data)
 print(response.json())
-
+```
 
 
 
@@ -37,12 +39,13 @@ Endpoint: /get_history/<user_id>
 Method: GET
 
 Example Call:
+```
 import requests
 user_id = "user123"
 url = f'http://127.0.0.1:5000/get_history/{user_id}'
 response = requests.get(url)
 print(response.json())
-
+```
 
 
 
