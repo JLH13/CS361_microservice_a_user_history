@@ -48,3 +48,4 @@ print(response.json())
 
 UML sequence diagram showing how requesting and receiving data works. Make it detailed enough that your teammate (and your grader) will understand:
 
+<img width="731" alt="Screenshot 2024-05-19 at 8 38 31 PM" src="https://github.com/JLH13/CS361_microservice_a_user_history/assets/108007953/0152a28d-a389-4ee2-9eb9-8568a8934705">
